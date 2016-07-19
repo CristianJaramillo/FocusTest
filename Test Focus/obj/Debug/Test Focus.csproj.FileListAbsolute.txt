@@ -1,0 +1,32 @@
+D:\Test Focus\Test Focus\bin\Debug\App.xbf
+D:\Test Focus\Test Focus\bin\Debug\MainPage.xbf
+D:\Test Focus\Test Focus\bin\Debug\Test Focus.xr.xml
+D:\Test Focus\Test Focus\bin\Debug\Test Focus.exe
+D:\Test Focus\Test Focus\bin\Debug\Test Focus.pdb
+D:\Test Focus\Test Focus\bin\Debug\resources.pri
+D:\Test Focus\Test Focus\bin\Debug\AppxManifest.xml
+D:\Test Focus\Test Focus\bin\Debug\Test Focus.build.appxrecipe
+D:\Test Focus\Test Focus\obj\Debug\App.g.i.cs
+D:\Test Focus\Test Focus\obj\Debug\App.g.cs
+D:\Test Focus\Test Focus\obj\Debug\MainPage.g.i.cs
+D:\Test Focus\Test Focus\obj\Debug\MainPage.g.cs
+D:\Test Focus\Test Focus\obj\Debug\XamlTypeInfo.g.cs
+D:\Test Focus\Test Focus\obj\Debug\App.xaml
+D:\Test Focus\Test Focus\obj\Debug\App.xbf
+D:\Test Focus\Test Focus\obj\Debug\XamlSaveStateFile.xml
+D:\Test Focus\Test Focus\obj\Debug\MainPage.xaml
+D:\Test Focus\Test Focus\obj\Debug\MainPage.xbf
+D:\Test Focus\Test Focus\obj\Debug\Test Focus.exe
+D:\Test Focus\Test Focus\obj\Debug\Test Focus.pdb
+D:\Test Focus\Test Focus\obj\Debug\priconfig.xml
+D:\Test Focus\Test Focus\obj\Debug\priconfig.xml.intermediate
+D:\Test Focus\Test Focus\obj\Debug\layout.resfiles
+D:\Test Focus\Test Focus\obj\Debug\layout.resfiles.intermediate
+D:\Test Focus\Test Focus\obj\Debug\resources.resfiles
+D:\Test Focus\Test Focus\obj\Debug\resources.resfiles.intermediate
+D:\Test Focus\Test Focus\obj\Debug\pri.resfiles
+D:\Test Focus\Test Focus\obj\Debug\pri.resfiles.intermediate
+D:\Test Focus\Test Focus\obj\Debug\qualifiers.txt
+D:\Test Focus\Test Focus\obj\Debug\qualifiers.txt.intermediate
+D:\Test Focus\Test Focus\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Test Focus\Test Focus\obj\Debug\ProjectArchitectures.txt

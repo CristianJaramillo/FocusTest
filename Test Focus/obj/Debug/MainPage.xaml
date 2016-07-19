@@ -1,0 +1,63 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Test_Focus.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Test_Focus"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+                        
+    xmlns:m="using:Test_Focus.Models"
+    xmlns:vm="using:Test_Focus.ViewModels"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <m:Person x:Key="person"/>
+        <vm:PersonViewModel x:Key="personViewModel"/>
+    </Page.Resources>
+    
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Panel de título -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="{Binding Name, Source={StaticResource person}, Mode=TwoWay}" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!--TODO: Debe colocarse el contenido en la siguiente cuadrícula-->
+        <Grid Grid.Row="1"
+              x:Name="ContentRoot" 
+              Margin="19,9.5,19,0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            
+            <TextBox x:ConnectionId='2' x:Name="NameTextBox"
+                     Grid.Row="0"
+                                              
+                     Text="{Binding Name, Source={StaticResource person}, Mode=TwoWay}"
+                     Margin="0,140"
+                     PlaceholderText="Escribe tu nombre"/>
+            <Button x:Name="SaveButton"
+                    Grid.Row="1"
+                    Content="Guardar"
+                    HorizontalAlignment="Stretch"
+                    HorizontalContentAlignment="Center"
+                    CommandParameter="{Binding Name, Source={StaticResource person}, Mode=TwoWay}"
+                    Command="{Binding Path=NameCommand, Source={StaticResource personViewModel}, Mode=TwoWay}"/>
+        </Grid>
+    </Grid>
+</Page>
+
